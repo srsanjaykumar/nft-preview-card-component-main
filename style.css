@@ -83,7 +83,7 @@ body {
   
 }
 .section-2 p {
-  margin: 1rem 0rem ;
+  margin: 0.9rem 0rem ;
   font-size: 16px;
   font-weight: 200;
   color: var(--soft-blue);
@@ -97,18 +97,27 @@ body {
   
 }
 .part p{
-  display: inline;
-  padding-left: 3px;
+  margin-left: 8px ;
+  
 }
 .part-1 p{
   color: var(--cyan);
   font-weight: bold;
 }
+
+.part-1,.part-2{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  text-align: center;
+}
+
+
 hr {
   height: 1px; 
   border: none; 
   background-color: grey;
-  margin-top: 1.1rem;
+
 }
 .section-3{
   display: flex;
